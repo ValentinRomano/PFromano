@@ -60,12 +60,13 @@ p{
     height:300px ;
 }
 .Iconoalbum {
-    width: 400px ;
-    height: 400px ;
+    width: 300px ;
+    height: 300px ;
+    margin-left: 150px;
 }
 #Fotobanda{
     width: 600px;
-    height: 400px;
+    height: 500px;
     padding: 50px 5px 100px 50px;
 
 }
@@ -77,11 +78,9 @@ p{
     margin-bottom: 10px;
 }
 #Albumes{
-    display: grid;
-    grid-template-columns: 480px 480px ;
-    grid-template-rows: 800px ;
-    grid-gap: 30px ;
-    justify-content: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 #articuloinicio{
     display: flex ;
@@ -104,6 +103,7 @@ html{
     display: flex;
     justify-content: center;
 }
+
 #ultimovideo{
     display: flex;
     align-items: center;
@@ -121,12 +121,7 @@ html{
     flex-wrap: nowrap;
 
 }
-.articulos{
-    display: flex;
-    flex-direction: column;
-    margin-left: 80px;
 
-}
 #seasons{ 
     margin-left: 80px;
 }
@@ -157,6 +152,14 @@ ul{
 ol{
     margin-left: 110px;
     margin-bottom: 30px;
+    padding-left: 150px;
+}
+.fotocarrusel{
+    width: 20px;
+    height: 10px;
+}
+#carouselExample{
+    width: 1500px;
 }
 @media (max-width: 768px){
     html{
@@ -210,4 +213,27 @@ ol{
         width: 250px;
         height: 250px;
     }
+    #fotobanda{ 
+        display: flex;
+        width: 400px;
+        height: 300px;
+        padding-left: 10px;
+    }
+    .Iconoalbum {
+        margin-left: 220px;
+}
+#carouselExample{
+    width: 500px;
+    margin-left: 90px;
+    
+
+}
+#ultimovideoo{
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+#iframe{
+    margin-left: 50px;
+}
 }

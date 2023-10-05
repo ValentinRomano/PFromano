@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metallica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -29,15 +30,35 @@
           que no deja de sorprendernos con sus matavillosos Albumes de estudios!. Te invito a disfrutar la pagina!. 
         </p>
       </div>
-      <div id="imagenbienvenida">    
-        <img src="./img/Metalllicabanda.jpg.jpg " alt="Foto de la banda metallica" id="Fotobanda">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../coderhouse/img/bandaaA (2).jpg" class="d-block w-100" alt="banda" class="fotocarrusel">
+          </div>
+          <div class="carousel-item">
+            <img src="../coderhouse/img/bandaAAAAA.jpg" class="d-block w-100" alt="banda" class="fotocarrusel">
+          </div>
+          <div class="carousel-item">
+            <img src="../coderhouse/img/MetalllicabandaAAAAA.jpg" class="d-block w-100" alt="banda" class="fotocarrusel">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       </section>
     <div id="ultimovideo">
-      <h2>Ultimo Video</h2> 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/1OeC9CGtWcM?si=FiQx1TPoQU_ljTV3" title="Ultimo video metallica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="ultimovideo"></iframe>
+      <h2 id="ultimovideoo">Ultimo Video <span class="badge bg-secondary">New</span></h2> 
+      <iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/1OeC9CGtWcM?si=FiQx1TPoQU_ljTV3" title="Ultimo video metallica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="ultimovideo"></iframe>
     </div> 
   </main>
-   <footer><p class="piedepagina">Pagina creada por Valenrin Romano. Contactos: 2612409406 para whatsapp </p></footer>
-  </body>
-  </html>
+  
+    <footer><p class="piedepagina">Pagina creada por Valenrin Romano. Contactos: 2612409406 para whatsapp </p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>
