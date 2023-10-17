@@ -1,239 +1,240 @@
-body{
-    background-color: rgb(194, 194, 194);
-    padding: 30px;
-    border: 30px;
+header {
+  padding: 20px;
+  position: sticky;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-evenly;
+  background-color: grey;
+  text-align: start;
+  align-items: none;
 }
-footer{
-    display: flex;
-    align-items: center;
-    background-color: black;
-    justify-content: center;
-}
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: rgb(151, 147, 147);
-    padding: 20px;
-    text-align: start;
-    position: sticky;
-
-
-}
-.navegador{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-evenly;
-    color: white;
+@media screen and (max-width: 768px) {
+  header {
+    padding-left: 10px;
+  }
 }
 
-img{
-    display: inline;
-}
-a{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10%;
+.navegador {
+  list-style: none;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-evenly;
+  background-color: white;
+  text-align: none;
+  align-items: none;
 }
 
-h1{
-    font-family: 'Ruwudu', serif;
-    font-size: 40px;
-    display: flex;
+ul {
+  padding-block: 20px;
+  display: flex;
+  flex-flow: none none;
+  justify-content: space-between;
+  background-color: none;
+  text-align: none;
+  align-items: none;
 }
-h2{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 40px;
-    color: rgb(41, 39, 39);
+ul li {
+  padding-right: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-flow: none none;
+  justify-content: none;
+  background-color: none;
+  text-align: none;
+  align-items: none;
 }
-p{
-    display: flex;
-    font-family: 'Libre Baskerville', serif;
-}
-
-.Fotosintegrantes{
-    width: 450px ;
-    height:300px ;
-}
-.Iconoalbum {
-    width: 300px ;
-    height: 300px ;
-    margin-left: 150px;
-}
-#Fotobanda{
-    width: 600px;
-    height: 500px;
-    padding: 50px 5px 100px 50px;
-
-}
-#parrafo1{
-    margin-left: 10px;
-    font-size: 20px;
-}
-#ultimovideo{
-    margin-bottom: 10px;
-}
-#Albumes{
-display: flex;
-flex-direction: row;
-justify-content: center;
-}
-#articuloinicio{
-    display: flex ;
-    justify-content: space-around;
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10%;
+  display: flex;
+  flex-flow: none none;
+  justify-content: space-between;
+  background-color: black;
+  text-align: none;
+  align-items: none;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
+.banner {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: none;
+  background-color: none;
+  text-align: none;
+  align-items: none;
+}
+@media screen and (max-width: 768px) {
+  .banner {
     flex-wrap: wrap;
-}
-html{
-    background-color: rgb(39, 39, 39);
-}
-#h2{
-    margin: 10px;
-    padding: 10px;
-}
-#imagenbienvenida{
-    display: flex;
     justify-content: center;
+    padding-left: 10px;
+  }
 }
-
-#ultimovideo{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-left: 30px;
-}
-.titiloalbum{
-    font-size: 30px;
-    display: flex;
+@media screen and (max-width: 768px) and (max-width: 480px) {
+  .banner {
     justify-content: center;
+  }
 }
-.banner{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+.banner #bienvenida {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: none;
+  background-color: none;
+  text-align: center;
+  align-items: none;
+}
+.banner #bienvenida #h2 {
+  margin: 10px;
+  padding: 10px;
+}
+.banner #bienvenida #h2 #parrafo1 {
+  margin-left: 10px;
+  font-size: 20px;
+}
 
+#ultimovideo {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: none;
+  background-color: none;
+  text-align: none;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-left: 150x;
+  padding-top: 20px;
 }
-
-#seasons{ 
-    margin-left: 80px;
-}
-#bienvenida{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.piedepagina{
-    color: aliceblue;
-}
-#Recitales{
-display: flex;
-padding: 30px;
-justify-content: space-between;
-}
-ul{
-    display: flex;
-    justify-content: space-between;
-    padding-block: 20px;
-}
-.lista{
-    display: flex;
-    top: 0%;
-    padding-right: 20px;
-    font-size: 30px;
-}
-ol{
-    margin-left: 110px;
-    margin-bottom: 30px;
-    padding-left: 150px;
-}
-.fotocarrusel{
-    width: 20px;
-    height: 10px;
-}
-#carouselExample{
-    width: 1500px;
-}
-@media (max-width: 768px){
-    html{
-        background-color: rgb(194, 194, 194);
-    }
-    main{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .banner{
-        flex-direction: row;
-        flex-wrap: wrap;
-    } 
-    a{
-        justify-content: center;
-        padding-left: 25px;
-
-    }
-    .navegador{
-        padding-bottom: 50px;
-        display: flex;
-        justify-content:left ;
-        width: fit-content;
-        font-size:small
-    
-    }
-    h1{
-        font-size: 55px;
-        margin-top: 80px;
-        justify-content: center;
-    }
-    header{
-        flex-direction: column;
-        height:180px;
-        padding: 20px;
-        border-radius: 20px;
-
-    }
-    a{
-        justify-content: left;
-        width: fit-content;
-        font-size: 15px;
-        padding-top: 0px;
-    }
-    .piedepagina{
-        padding-left: 10px; 
-        padding-right: 10px;
-        margin-left: 10px;
-    }
-    .Iconoalbum{
-        width: 250px;
-        height: 250px;
-    }
-    #fotobanda{ 
-        display: flex;
-        width: 400px;
-        height: 300px;
-        padding-left: 10px;
-    }
-    .Iconoalbum {
-        margin-left: 220px;
-}
-#carouselExample{
+@media screen and (max-width: 768px) {
+  #ultimovideo {
     width: 500px;
+    height: 400px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #iframe {
+    width: 400px;
+    height: 300px;
+    justify-content: center;
     margin-left: 90px;
-    
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 480px) {
+  #iframe {
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+  }
+}
 
+footer {
+  display: flex;
+  flex-flow: none none;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+  align-items: center;
 }
-#ultimovideoo{
-    margin-left: 50px;
-    padding-top: 20px;
+footer .piedepagina {
+  color: aliceblue;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    width: 550px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    margin-left: 0px;
+  }
+}
 
+body {
+  background-color: rgb(194, 194, 194);
+  padding: 30px;
+  border: 30px;
 }
-#iframe{
-    margin-left: 50px;
+@media screen and (max-width: 768px) {
+  body {
+    width: 600px;
+    margin-left: 80px;
+  }
 }
+@media screen and (max-width: 768px) and (max-width: 480px) {
+  body {
+    width: 600px;
+    margin-left: 0;
+  }
 }
+
+.carrusele {
+  width: 2500px;
+  margin-left: 90px;
+}
+@media screen and (max-width: 768px) {
+  .carrusele {
+    margin-left: 0px;
+  }
+}
+
+#Albumes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#Albumes .titiloalbum {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.Iconoalbum {
+  width: 300px;
+  height: 300px;
+  margin-left: 150px;
+}
+
+ol {
+  margin-left: 110px;
+  margin-bottom: 30px;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+.fotointegrante {
+  display: flex;
+  width: 500px;
+  height: 300px;
+  padding-bottom: 20px;
+}
+
+#Recitales {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+@media screen and (max-width: 768px) {
+  #Recitales {
+    display: flex;
+    flex-direction: column;
+  }
+  #Recitales iframe {
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #Recitales {
+    width: 400px;
+  }
+}
+
+.logonav {
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */

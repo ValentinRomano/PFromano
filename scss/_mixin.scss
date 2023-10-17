@@ -1,0 +1,105 @@
+//mixin flex//
+@mixin flexible ($dis , $direction , $corte , $just, $color, $text-aling, $aling-item) {
+    display: $dis;
+    flex-flow: $corte $direction;
+    justify-content: $just;
+    background-color: $color;
+    text-align: $text-aling;
+    align-items: $aling-item;
+}
+//index//
+header{
+    padding: 20px;
+    position: sticky;
+    @include flexible(flex, row,nowrap ,space-evenly, grey , start , none);
+    @media screen and (max-width:768px){
+        padding-left: 10px;;
+
+        
+    }
+}
+.navegador{
+    list-style: none;
+    @include flexible(flex,row ,nowrap ,space-evenly ,white, none , none)
+}
+ul{
+    padding-block: 20px;
+    @include flexible(flex,none ,none ,space-between , none , none, none) ;
+    li{
+        padding-right: 20px;
+        font-size: 20px;
+         @include flexible(flex,none ,none ,none ,none ,none, none) ;
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10%;
+            @include flexible(flex,none ,none ,space-between ,black , none, none); 
+        }
+    }
+}
+.banner{
+    @include flexible(flex,row ,nowrap ,none ,none , none ,none) ;
+    @media screen and (max-width:768px){
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 10px;
+        @media screen and (max-width:480px){
+            justify-content: center;
+        }
+    
+
+    }
+    #bienvenida{
+        @include flexible(flex,row , wrap ,none,none , center, none);
+        #h2{
+            margin: 10px;
+            padding: 10px;
+            #parrafo1{
+                margin-left: 10px;
+                font-size: 20px;
+                
+            }
+        }
+    }
+}
+#ultimovideo{
+    @include flexible(flex,column ,wrap ,none ,none, none, center);
+    padding-bottom: 20px;
+    margin-left: 150x;
+    padding-top: 20px;
+    @media screen and (max-width:768px){
+        width: 500px;
+        height: 400px;
+        justify-content: center;   
+    }
+
+    }
+#iframe{
+    @media screen and (max-width:768px){
+        width: 400px;
+        height: 300px;
+        justify-content: center;
+        margin-left: 90px;
+    @media screen and (max-width:480px){
+        justify-content: center;
+        width: 500px;
+        height: 300px;
+        margin-left: 20px;
+        }    
+
+}
+}
+footer{
+    @include flexible(flex,none ,none ,center ,black , center, center);
+    .piedepagina{
+        color: aliceblue;
+    }
+    @media screen and (max-width:768px){
+        width: 550px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    @media screen and (max-width:480px){
+        margin-left: 0px;
+    }
+}    

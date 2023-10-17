@@ -10,15 +10,33 @@
 <body>
   <header>
     <h1>Metallica</h1>
-      <nav>
-        <ul class="navegador">
-          <li class="lista"><a href="#">Inicio</a></li>
-          <li class="lista"> <a href="./pages/albumes.html">Albumes</a></li>
-          <li class="lista"><a href="./pages/integrantes.html">Integrantes</a></li>
-          <li class="lista"><a href="./pages/recitales.html">Recitales</a></li>
-          <li class="lista"><a href="./pages/conocemas.html">Conoce Mas</a></li>
-        </ul> 
-      </nav>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="./img/logo.png" alt="logo" class="logonav"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/albumes.html">Albumes</a>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/integrantes.html">Integrantes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/recitales.html">Recitales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/conocemas.html">Conoce Mas</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <main>
     <section class="banner">
@@ -30,7 +48,8 @@
           que no deja de sorprendernos con sus matavillosos Albumes de estudios!. Te invito a disfrutar la pagina!. 
         </p>
       </div>
-      <div id="carouselExample" class="carousel slide">
+      <div class="carrusele">
+        <section id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="../coderhouse/img/bandaaA (2).jpg" class="d-block w-100" alt="banda" class="fotocarrusel">
@@ -50,15 +69,16 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </section>
       </div>
       </section>
     <div id="ultimovideo">
-      <h2 id="ultimovideoo">Ultimo Video <span class="badge bg-secondary">New</span></h2> 
+      <h2 >Ultimo Video <span class="badge bg-secondary">New</span></h2> 
       <iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/1OeC9CGtWcM?si=FiQx1TPoQU_ljTV3" title="Ultimo video metallica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="ultimovideo"></iframe>
     </div> 
   </main>
   
-    <footer><p class="piedepagina">Pagina creada por Valenrin Romano. Contactos: 2612409406 para whatsapp </p></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+  <footer><p class="piedepagina">Pagina creada por Valentin Romano. Contactos: 2612409406 para whatsapp </p></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </body>
 </html>

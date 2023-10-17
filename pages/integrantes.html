@@ -4,43 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrantes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
         <h1>Metallica</h1>
-        <nav>
-            <ul class="navegador">
-            <li class="lista"><a href="../index.html">Inicio</a></li>
-            <li class="lista"><a href="./abumes.html">Albumes</a></li>
-            <li class="lista"><a href="#">Integrantes</a></li>
-            <li class="lista"><a href="./recitales.html">Recitales</a></li>
-            <li class="lista"><a href="./conocemas.html">Conoce Mas</a></li>
-           </ul>  
-        </nav>
+    <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"> <img src="../img/logo.png" alt="logo" class="logonav"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./albumes.html">Albumes</a>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Integrantes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./recitales.html">Recitales</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./conocemas.html">Conoce Mas</a>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <article>
-            <h2>James Hetfield</h2>
-            <img src="../img/James Hetfield ewe.jpg" alt="James Hetfield" class="Fotosintegrantes">
-            <P>James Alan Hetfield (nacido el 3 de agosto de 1963) es un músico estadounidense. Es el vocalista principal, guitarrista rítmico, cofundador y compositor principal de la banda de heavy metal Metallica</P>
-        </article>
-        <article>
-            <h2>Lars Ulrich</h2>
-            <img src="../img/Lars Ulrich.png" alt="Lars Ulrich" class="Fotosintegrantes">
-            <P>Lars Ulrich ; (nacido el 26 de diciembre de 1963) es un músico danés mejor conocido como el baterista y cofundador del grupo heavy estadounidense. banda de metal Metálica </P>
-        </article>
-        <article>
-            <h2>Kirk Hammett</h2>
-            <img src="../img/Kirk-Hammett.jpg" alt="Kirk Hammett" class="Fotosintegrantes">
-            <P>Kirk Lee Hammett (nacido el 18 de noviembre de 1962) es un músico estadounidense que ha sido el guitarrista principal de la banda de heavy metal Metallica desde 1983</P>
-        </article>
-        <article>
-            <h2>Robert Trujillo</h2>
-            <img src="../img/Robert Trujillo.jpg" alt="Robert Trujillo" class="Fotosintegrantes">
-            <P>Roberto Agustín Miguel Santiago Samuel Trujillo Veracruz, conocido como Robert Trujillo (Santa Mónica, California; 23 de octubre de 1964) es un músico estadounidense de ascendencia mexicana, bajista actual de la banda Metallica</P>
-        </article>
+        <section class="container" class="col-md-12 col-xl-6 col-xs-2">
+            <divr class="row">
+                <h2>James Hetfield</h2>
+                <P>James Alan Hetfield (nacido el 3 de agosto de 1963) es un músico estadounidense. Es el vocalista principal, guitarrista rítmico, cofundador y compositor principal de la banda de heavy metal Metallica</P>
+            </div>
+            <div class="col">
+                <img src="../img/James Hetfield ewe.jpg" alt="James Hetfield" class="fotointegrante">
+            </div>
+        </section>
+        <section class="container" class="col-md-12 col-xl-6 col-xs-2">
+            <div class="row">
+                <h2>Lars Ulrich</h2>
+                <P>Lars Ulrich ; (nacido el 26 de diciembre de 1963) es un músico danés mejor conocido como el baterista y cofundador del grupo heavy estadounidense. banda de metal Metálica </P>
+            </div>
+            <div class="col">
+                <img src="../img/Lars Ulrich.png" alt="Lars Ulrich" class="fotointegrante">
+            </div>
+        </section>
+        <section class="container" class="col-md-12 col-xl-6 col-xs-2">
+            <div class="row">
+                <h2>Kirk Hammett</h2>
+                <P>Kirk Lee Hammett (nacido el 18 de noviembre de 1962) es un músico estadounidense que ha sido el guitarrista principal de la banda de heavy metal Metallica desde 1983</P>
+            </div>
+            <div class="col">
+                <img src="../img/Kirk-Hammett.jpg" alt="Kirk Hammett" class="fotointegrante">
+            </div>
+        </section>
+        <section class="container" class="col-md-12 col-xl-6 col-xs-2">
+            <div class="row">
+                <h2>Robert Trujillo</h2>
+                <P>Roberto Agustín Miguel Santiago Samuel Trujillo Veracruz, conocido como Robert Trujillo (Santa Mónica, California; 23 de octubre de 1964) es un músico estadounidense de ascendencia mexicana, bajista actual de la banda Metallica</P>
+            </div>
+            <div class="col" >
+                <img src="../img/Robert Trujillo.jpg" alt="Robert Trujillo" class="fotointegrante">
+            </div>
+        </section>
     </main>
-    <footer><p>marcadeagua</p></footer>
+    <footer><p class="piedepagina">Pagina creada por Valentin Romano. Contactos: 2612409406 para whatsapp </p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

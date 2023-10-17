@@ -1,0 +1,81 @@
+//index//
+@import"variables";
+body{
+    background-color: rgb(194, 194, 194);
+    padding: $pixeles*3;
+    border: $pixeles*3;
+    @media screen and (max-width:768px){
+        width: 600px ;
+        margin-left: 80px;
+
+    @media screen and (max-width:480px){
+        width: 600px;
+        margin-left: 0;
+    }
+}
+}
+
+.carrusele{
+    width: 2500px;
+    margin-left: $pixeles*9;
+    @media screen and (max-width:768px){
+        margin-left: $pixeles*0;
+
+        
+    }
+}
+
+//albumes//
+#Albumes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .titiloalbum{
+        font-size: $pixeles*3;
+        display: flex;
+        justify-content: center;
+    }
+}
+.Iconoalbum {
+    width: $pixeles*30 ;
+    height: $pixeles*30 ;
+    margin-left: $pixeles*15;
+    
+}
+ol{
+    margin-left: 110px;
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+//integrantes//
+
+.fotointegrante{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+//recitales en vivo//
+#Recitales{
+    display: grid;
+    grid-template-columns: auto auto;
+    @media screen and (max-width:768px){
+        display: flex;
+        flex-direction: column;
+        iframe{
+            width:450px ;
+            height:300px ;
+            margin-top: 20px;
+
+        }
+}
+    @media screen and (max-width:480px){
+        width: 400px;
+}    
+}
+//conoce mas//
+.logonav{
+    width: 100px;
+    height: 100px;
+}
