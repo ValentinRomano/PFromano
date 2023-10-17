@@ -110,11 +110,18 @@ ul li a {
     justify-content: center;
   }
 }
+@media screen and (max-width: 768px) and (max-width: 480px) {
+  #ultimovideo {
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+  }
+}
 
 @media screen and (max-width: 768px) {
   #iframe {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     justify-content: center;
     margin-left: 90px;
   }
@@ -122,9 +129,9 @@ ul li a {
 @media screen and (max-width: 768px) and (max-width: 480px) {
   #iframe {
     justify-content: center;
-    width: 500px;
-    height: 300px;
-    margin-left: 20px;
+    width: 300px;
+    height: 100px;
+    margin-left: 0px;
   }
 }
 
@@ -149,6 +156,7 @@ footer .piedepagina {
 @media screen and (max-width: 480px) {
   footer {
     margin-left: 0px;
+    width: 300px;
   }
 }
 
@@ -165,7 +173,7 @@ body {
 }
 @media screen and (max-width: 768px) and (max-width: 480px) {
   body {
-    width: 600px;
+    width: 360px;
     margin-left: 0;
   }
 }
@@ -196,6 +204,13 @@ body {
   height: 300px;
   margin-left: 150px;
 }
+@media screen and (max-width: 480px) {
+  .Iconoalbum {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+  }
+}
 
 ol {
   margin-left: 110px;
@@ -203,12 +218,26 @@ ol {
   padding-left: 150px;
   padding-top: 20px;
 }
+@media screen and (max-width: 480px) {
+  ol {
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+}
 
 .fotointegrante {
   display: flex;
   width: 500px;
   height: 300px;
   padding-bottom: 20px;
+}
+@media screen and (max-width: 480px) {
+  .fotointegrante {
+    width: 250px;
+    height: 190px;
+  }
 }
 
 #Recitales {
@@ -226,9 +255,10 @@ ol {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 480px) {
-  #Recitales {
-    width: 400px;
+@media screen and (max-width: 768px) and (max-width: 480px) {
+  #Recitales iframe {
+    width: 300px;
+    height: 150px;
   }
 }
 

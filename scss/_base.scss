@@ -9,7 +9,7 @@ body{
         margin-left: 80px;
 
     @media screen and (max-width:480px){
-        width: 600px;
+        width: 360px;
         margin-left: 0;
     }
 }
@@ -40,6 +40,12 @@ body{
     width: $pixeles*30 ;
     height: $pixeles*30 ;
     margin-left: $pixeles*15;
+    @media screen and (max-width:480px){
+        width:$pixeles*20 ;
+        height:$pixeles*20 ;
+        margin-left:30px ;
+        
+    }
     
 }
 ol{
@@ -47,6 +53,12 @@ ol{
     margin-bottom: 30px;
     padding-left: 150px;
     padding-top: 20px;
+    @media screen and (max-width:480px){
+        margin-left: 60px;
+        margin-bottom: 20px;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
 }
 //integrantes//
 
@@ -55,6 +67,10 @@ ol{
     width: 500px;
     height: 300px;
     padding-bottom: 20px;
+    @media screen and (max-width:480px){
+        width:250px ;
+        height:190px ;
+    }
 }
 //recitales en vivo//
 #Recitales{
@@ -67,12 +83,12 @@ ol{
             width:450px ;
             height:300px ;
             margin-top: 20px;
-
+            @media screen and (max-width:480px){
+                width:300px ;
+                height:150px ;
+            }
         }
-}
-    @media screen and (max-width:480px){
-        width: 400px;
-}    
+    }
 }
 //conoce mas//
 .logonav{
