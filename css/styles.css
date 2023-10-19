@@ -148,15 +148,12 @@ footer .piedepagina {
 }
 @media screen and (max-width: 768px) {
   footer {
-    width: 550px;
-    margin-left: 10px;
-    margin-top: 20px;
+    width: 100%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) and (max-width: 480px) {
   footer {
-    margin-left: 0px;
-    width: 300px;
+    width: 100%;
   }
 }
 
@@ -167,13 +164,13 @@ body {
 }
 @media screen and (max-width: 768px) {
   body {
-    width: 600px;
+    width: 100%;
     margin-left: 80px;
   }
 }
 @media screen and (max-width: 768px) and (max-width: 480px) {
   body {
-    width: 360px;
+    width: 100%;
     margin-left: 0;
   }
 }
@@ -194,7 +191,7 @@ body {
   justify-content: center;
 }
 #Albumes .titiloalbum {
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
@@ -213,14 +210,14 @@ body {
 }
 
 ol {
-  margin-left: 110px;
+  margin-left: 120px;
   margin-bottom: 30px;
   padding-left: 150px;
   padding-top: 20px;
 }
 @media screen and (max-width: 480px) {
   ol {
-    margin-left: 60px;
+    margin-left: 80px;
     margin-bottom: 20px;
     padding-left: 0px;
     padding-top: 20px;
@@ -243,6 +240,9 @@ ol {
 #Recitales {
   display: grid;
   grid-template-columns: auto auto;
+}
+#Recitales iframe {
+  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   #Recitales {
