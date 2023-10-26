@@ -64,8 +64,8 @@ ul{
 }
 #ultimovideo{
     @include flexible(flex,column ,wrap ,none ,none, none, center);
-    padding-bottom: 20px;
-    margin-left: 150x;
+    margin-bottom: 20px;
+    margin-left: 10px;
     padding-top: 20px;
     @media screen and (max-width:768px){
         width: 500px;
@@ -96,6 +96,7 @@ ul{
 }
 }
 footer{
+    margin-top: auto;
     @include flexible(flex,none ,none ,center ,black , center, center);
     .piedepagina{
         color: aliceblue;
